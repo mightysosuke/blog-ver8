@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @message = "ようこそ、私のブログへ！"
+    @article = Article.first
   end
 
   def about

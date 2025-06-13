@@ -249,7 +249,9 @@
       "TodoRead(**)",
       "TodoWrite(**)",
       "Task(**)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)"
     ],
     "deny": [
       "Bash(rm -rf /)",
