@@ -1,7 +1,7 @@
-@import 'header';
-@import 'tabs';
-@import 'variables';
-@import 'card';
+@use 'variables' as *;
+@use 'header';
+@use 'tabs';
+@use 'card';
 
 html {
   word-spacing: 1px;
