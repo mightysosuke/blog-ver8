@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# Create sample article
+Article.find_or_create_by!(title: "デイトラ") do |article|
+  article.content = "データベースの値を表示しています"
+end
