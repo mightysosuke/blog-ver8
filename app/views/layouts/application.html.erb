@@ -23,6 +23,11 @@
   </head>
 
   <body>
+    <nav>
+      <%= link_to "ホーム", root_path %>
+      |
+      <%= link_to "About", about_path %>
+    </nav>
     <%= yield %>
   </body>
 </html>
