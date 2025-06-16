@@ -44,6 +44,11 @@ $avatar-size: 32px;
     padding: 16px 16px;
   }
 
+  &_title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
   &_image {
     height: 180px;
     position: relative;
