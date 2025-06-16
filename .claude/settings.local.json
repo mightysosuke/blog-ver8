@@ -5,7 +5,9 @@
       "Bash(gh api:*)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(mv:*)",
-      "Bash(bundle install)"
+      "Bash(bundle install)",
+      "Bash(git fetch:*)",
+      "Bash(git merge:*)"
     ],
     "deny": []
   }
